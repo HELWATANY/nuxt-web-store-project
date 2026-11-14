@@ -1,0 +1,1 @@
+# nuxt-web-store-project
