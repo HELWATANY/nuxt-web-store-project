@@ -118,7 +118,7 @@ pnpm test:e2e
 
 The public [Nuxt Web Store Project master board](https://github.com/users/HELWATANY/projects/6) contains **24 Draft Issues** under `HELWATANY`, created from GitHub's built-in Kanban template. The local course catalog remains the content source and records every draft ID and verified card link.
 
-Verified on 2026-11-15: all 24 live draft titles/bodies, Phase values, and three Ready / 21 Backlog assignments match the catalog, with no archived extras. Repeat reconciliation made zero card writes. The board and all 24 card links opened in a signed-out browser. The default Status board and all five visible columns were also verified. Disabling auto-add workflows and copy-dialog inspection remain pending in [issue #2](https://github.com/HELWATANY/nuxt-web-store-project/issues/2); an actual attendee-copy test has not been performed.
+Verified on 2026-11-15: all 24 live draft titles/bodies, Phase values, and three Ready / 21 Backlog assignments match the catalog, with no archived extras. Repeat reconciliation made zero card writes. The board and all 24 card links opened in a signed-out browser. The default Status board and all five visible columns were also verified. The API confirms the auto-add workflow is disabled and no auto-archive workflow is configured. The owner confirmed completing Make a copy with draft issues successfully copied on 2026-11-15. Provisioning verification for [issue #2](https://github.com/HELWATANY/nuxt-web-store-project/issues/2) is complete; the copy result is owner-reported.
 
 ### Kanban Board Layout & Columns:
 - **`Backlog`**: Holds upcoming tasks for Phases 1 through 5.
