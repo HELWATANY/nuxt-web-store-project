@@ -1,0 +1,51 @@
+{
+  "app": {
+    "title": "Nuxt 4 Web Store",
+    "description": "Full-stack e-commerce and admin dashboard built with agentic workflows.",
+    "footer": "© 2026 Nuxt Web Store Project — Agentic Coding Curriculum."
+  },
+  "nav": {
+    "storefront": "Storefront",
+    "dashboard": "Admin Dashboard",
+    "cart": "Cart",
+    "searchPlaceholder": "Search products...",
+    "categories": "Categories",
+    "overview": "Overview",
+    "orders": "Orders",
+    "backToStorefront": "Back to Storefront"
+  },
+  "catalog": {
+    "title": "Featured Products",
+    "subtitle": "Explore our curated catalog of developer tech and gear.",
+    "addToCart": "Add to Cart",
+    "outOfStock": "Out of Stock",
+    "inStock": "In Stock",
+    "price": "Price",
+    "starterReady": "Nuxt 4 Starter Ready",
+    "sampleCategory": "Category",
+    "sampleTitle": "Product {number}",
+    "sampleDescription": "A sample developer product ready to be populated by the Phase 1 Nitro SQLite API."
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your shopping cart is empty.",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "itemCount": "{count} items"
+  },
+  "admin": {
+    "title": "Back-office Dashboard",
+    "description": "Manage your store metrics, inventory, and orders.",
+    "metrics": {
+      "revenue": "Total Revenue",
+      "orders": "Total Orders",
+      "products": "Active Products"
+    },
+    "products": {
+      "title": "Product Inventory",
+      "createNew": "Create Product",
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  }
+}
