@@ -116,7 +116,9 @@ pnpm test:e2e
 
 ## 📋 GitHub Project & Course Kanban Workflow
 
-The course specifies **24 Draft Issues** for a public **`Nuxt Web Store Project`** under `HELWATANY`, using GitHub's built-in Kanban template. Live board creation and verified board/card links are pending; the local course catalog is the content source.
+The public [Nuxt Web Store Project master board](https://github.com/users/HELWATANY/projects/6) contains **24 Draft Issues** under `HELWATANY`, created from GitHub's built-in Kanban template. The local course catalog remains the content source and records every draft ID and verified card link.
+
+Verified on 2026-11-15: all 24 live draft titles/bodies, Phase values, and three Ready / 21 Backlog assignments match the catalog, with no archived extras. Repeat reconciliation made zero card writes. The board and all 24 card links opened in a signed-out browser. The default Status board and all five visible columns were also verified. Disabling auto-add workflows and copy-dialog inspection remain pending in [issue #2](https://github.com/HELWATANY/nuxt-web-store-project/issues/2); an actual attendee-copy test has not been performed.
 
 ### Kanban Board Layout & Columns:
 - **`Backlog`**: Holds upcoming tasks for Phases 1 through 5.
@@ -137,6 +139,8 @@ See [GitHub's documented copying workflow](https://docs.github.com/en/issues/pla
 ### Instructor Provisioning
 
 Prepare and validate the catalog first. Create the built-in Kanban project in the browser, record its node ID/number/URL in the catalog immediately, then configure fields and publish the catalog bodies through GraphQL. Configure and save the default Status board in the browser; re-query existing task IDs before retries, repair incomplete assignments, and stop on duplicate or unexpected items. Keep the master at 24 drafts: three Phase 0 cards in `Ready (Todo)` and 21 cards in `Backlog`.
+
+Preserve inaccessible checkpoint identities as historical evidence. Recheck all owner projects, including closed projects, before creating a replacement; stop on multiple candidates, a closed match, or identity conflicts. Check all items, including archived items, before each add/retry and stop on archived or unrelated content. Reconcile incorrect as well as missing Phase/Status values. Record item/draft IDs immediately and add links only after verification. Show all five board columns, including empty ones, and disable auto-add and auto-archive workflows. Verify public access and inspect/cancel the copy dialog separately from an actual attendee-copy test.
 
 The legacy `scripts/setup-github-project.mjs` is **not a complete provisioner for this specification**. It contains an older hardcoded catalog and does not configure the required template, visibility, fields, saved view, or retry recovery. Updating the helper is outside this change.
 
