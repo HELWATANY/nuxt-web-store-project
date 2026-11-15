@@ -17,6 +17,8 @@ export default defineNuxtConfig({
     '@nuxtjs/seo',
     '@nuxt/test-utils/module',
   ],
+  // Social previews are served from public/social-preview.png.
+  ogImage: false,
   i18n: {
     defaultLocale: 'en',
     locales: [
