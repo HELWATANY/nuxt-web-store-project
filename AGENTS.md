@@ -85,9 +85,9 @@ For architectural designs, feature specifications, and critical reviews:
   - Use **Modal** (`UModal`) for create flows.
   - Use **Slideover** (`USlideover`) for edit and preview flows.
 - **Interaction Constraints**:
-  - Always prevent closing when clicking outside the overlay (set `prevent-close`).
+  - In Nuxt UI 4, set `:dismissible="false"` on `UModal` and `USlideover` to prevent closing on outside clicks and Escape. The legacy `prevent-close` prop is not supported.
   - Provide an explicit close button.
-  - Use the `#title` slot for the overlay header and `#footer` slot for actions so that the header and action buttons remain sticky and visible while the inner body content scrolls.
+  - Use `#title` for the accessible title, `#body` for scrolling content, and `#footer` for actions. Retain the built-in header and close button, and verify the header and footer stay visible with long content.
 - **Separation of Concerns**:
   - Child form components handle form state and expose `submit`, `isSubmitting`, and `submitLabel`.
   - Parent overlays manage modal visibility, trigger submission, handle success/error toasts, and control overlay reset/close behavior.

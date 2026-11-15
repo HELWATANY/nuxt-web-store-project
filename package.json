@@ -1,0 +1,41 @@
+{
+  "name": "nuxt-web-store-project",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^22.22.3 || ^24.15.0 || >=26.0.0"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@internationalized/date": "^3.12.4",
+    "@nuxt/ui": "^4.12.0",
+    "@nuxtjs/i18n": "^10.6.0",
+    "@nuxtjs/seo": "^6.0.1",
+    "better-sqlite3": "^13.2.0",
+    "date-fns": "^4.4.0",
+    "nuxt": "^4.6.4",
+    "nuxt-authorization": "^0.3.5",
+    "valibot": "^1.5.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^4.4.0",
+    "@playwright/test": "^1.50.0",
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.13.0",
+    "happy-dom": "^21.0.4",
+    "playwright": "^1.50.0",
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.12"
+  }
+}
