@@ -179,6 +179,7 @@ For architectural designs, feature specifications, and critical reviews:
 
 ### 10.2 Conventional Commits & Atomic Commits
 - **Atomic Commits**: Each commit must be a focused, self-contained unit of change that builds cleanly. Do not combine unrelated changes or multi-feature tasks into one monolithic commit.
+- **Single Task**: Each commit should address a single task or feature. Avoid bundling multiple unrelated changes into a single commit.
 - **Conventional Commits Specification**:
   - Format: `<type>(<scope>): <subject> (#<issue-number>)`
   - Allowed Types: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`, `revert`.
